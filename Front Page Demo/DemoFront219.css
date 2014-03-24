@@ -1,0 +1,41 @@
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.center { text-align: center; }
+
+div.vcenter {
+
+  vertical-align: middle;
+	margin-top: auto;
+    margin-bottom: auto 
+	
+  
+  }
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+	
+	}
+
+.className{
+background-color: #000; 
+	color:#00FFBF;
+width:500px;
+	height:500px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-250px 0 0 -250px;
+}
+
+h1 {
+	color: #333333;
+	font-family: Century Gothic, sans-serif;
+  font-size: 64px;
+  font-size: 6.4rem;
+  text-align: center;  }

@@ -1,0 +1,23 @@
+@-webkit-keyframes blackWhite {  
+  0% { background-color: white; }
+  50% { background-color: red; }
+  51% { background-color: black; }
+  100% { background-color: black; }
+}
+
+@-webkit-keyframes blackWhiteFade {  
+  0% { background-color: white; }
+  50% { background-color: black; }
+  100% { background-color: white; }
+}
+
+.blinkdiv {
+    height: 100px;
+    background-color: black;
+  -webkit-animation-name: blackWhite;
+  /* -webkit-animation-name: blackWhiteFade; */
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-duration: 2s; 
+}     
+
+

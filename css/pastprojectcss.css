@@ -38,6 +38,12 @@ font-family: Helvetica, Arial, sans-serif;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.homebuttons{
+  color: #99CC66;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute; top: 0%; right: 0%;
+}
+
 .header-content1{ 
   position: absolute; bottom: 20%; left: 5%;
   color: #333333;
@@ -156,6 +162,7 @@ h3 {
   text-align: center;
   width: 75%;
   margin: 5% auto;
+	position: relative;
 }
 
 #gallery img {
